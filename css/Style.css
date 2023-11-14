@@ -1,13 +1,50 @@
-h1 {
-    color: rgb(0, 0, 0);
+header div{
+    background-color: aqua;
+    height: 70px;
+    width: 100%;
+    padding: 1px 0px 4px 500px;
+    margin-bottom: 30px;
 }
-p {
-    color: aqua;
-    background-color: yellow;
-    font-style: italic;
-    text-align: center;
-    text-decoration: line-through;
-    width: 50%;
+
+nav li {
+    display: inline-block;
+    margin: 20px;
+}
+section {
+    background-color: aquamarine;
     height: 400px;
-    overflow: hidden;
+    width: 1200px;
+   display: inline-block;
+}
+.parent {
+    background-color: rgb(48, 127, 196);
+    width: 1000px;
+    height: 350px;
+    display: flex;
+}
+.first {
+    background-color: red;
+    width: 45%;
+    height: 90%;
+    
+}
+.second {
+    background-color: greenyellow;
+    width: 45%;
+    height: 90%;
+    margin-left: 5px;
+}
+footer {
+    background-color: green;
+    height: 40px;
+}
+span {
+    color: red;
+}
+aside {
+    background-color: black;
+    color: wheat;
+    display: inline-block;
+    height: 310px;
+    width: 130px;
 }
